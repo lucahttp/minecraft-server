@@ -95,11 +95,14 @@ if($eulaquest -eq $False)
 }
 
 $examplemotd = "motd=\u00a7f\u00a7lA \u00a7b\u00a7lMinecraft Server\u00a7f\u00a7l made with \u00a79\u00a7lpowershell \u00a7e\u00a7lscript\u00a7r\n\u00a7aby lukaneco\u00a7r - \u00a77github.com\/lukaneco"
+#https://minecraft.tools/en/motd.php
+#motd=A Minecraft Server made with powershell script
 
 $propertiespath = ".\server.properties"
 if (Test-Path $propertiespath -PathType leaf)
 {
     Write-Host "$propertiespath exist."
+    ((Get-Content -path $propertiespath -Raw) -replace 'online-mode=true','online-mode=false') | Set-Content -Path $propertiespath
 }
 else {
     Write-Host "$propertiespath doesn't exist."
