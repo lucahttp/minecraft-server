@@ -107,9 +107,34 @@ else {
     Write-Host "$propertiespath now it does exist"
 }
 
+
+
+#Show IP
+
+$startvar=0
+
+Write-host "do you want to show your public ip? (Default is quit)" -ForegroundColor Yellow 
+    $Readhost = Read-Host " ( y. yes / n. no ) " 
+    Switch ($ReadHost) 
+     { 
+       Y {Write-host "Your IP is"; $startvar= 1} 
+       N {Write-Host "Ok Bro"; $startvar = 0} 
+       Default {Write-Host "Default, Skip"; $startvar=0} 
+     } 
+
+if($startvar -eq 1)
+{ 
+  #http://woshub.com/get-external-ip-powershell/
+  #Public ip
+  Invoke-RestMethod -Uri ('http://ipinfo.io/'+(Invoke-WebRequest -uri "http://ifconfig.me/ip").Content)
+
+  #Local ip
+  #1..254 | ForEach-Object {Get-WmiObject Win32_PingStatus -Filter "Address='192.168.0.$_' and Timeout=200 and ResolveAddressNames='true' and StatusCode=0" | select ProtocolAddress*}
+}
+
+
+
 #GUI
-
-
 $startvar=0
 
 Write-host "do you want to start the minecraft server? (Default is quit)" -ForegroundColor Yellow 
@@ -135,3 +160,5 @@ if($startvar -eq 2)
     #& ((Split-Path $MyInvocation.InvocationName) + $startFileName)
     & $startFileNameNogui
 }
+
+
