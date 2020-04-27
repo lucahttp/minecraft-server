@@ -153,13 +153,17 @@ eula=true
 $minram = "1G"
 $maxram = "1G"
 
+
+$startFileName = "/start.ps1"
+
+
 $startscript = "java -Xms$minram -Xmx$maxram -jar spigot.jar"
-$startscript | Out-File start.ps1
+$startscript | Out-File $startFileName
 $startscript + " nogui" | Out-File startnogui.ps1
 
 
 #& ((Split-Path $MyInvocation.InvocationName) + "start.ps1")
-
+& ((Split-Path $MyInvocation.InvocationName) + $startFileName)
 
 #Write-Host "Running doesn't exist."
 
