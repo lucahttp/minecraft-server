@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 
-
 #ENV MINEPORT 25565
 #ENV MINEPORT="25565"
 
@@ -14,7 +13,7 @@ RUN apt-get update -y
 RUN apt-get install software-properties-common -y
 RUN apt-get install wget -y
 RUN apt-get install curl -y
-RUN apt-get update -y
+#RUN apt-get update -y
 #RUN apt-add-repository ppa:webupd8team/java
 #RUN echo "oracle-java8-installer shared/accepted-oracle-license-v1-1 select true" | debconf-set-selections
 #RUN apt-get install oracle-java8-installer -y
@@ -31,7 +30,6 @@ USER minecraft
 
 # Accept the end-user license agreement
 RUN echo "eula=true" > eula.txt
-
 
 RUN echo    "spawn-protection=16\n"\
             "max-tick-time=60000\n"\
