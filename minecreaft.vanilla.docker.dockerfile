@@ -57,8 +57,7 @@ RUN echo    "spawn-protection=16\n"\
             "max-world-size=29999984\n"\
             "function-permission-level=2\n"\
             "rcon.port=25575\n"\
-            #"server-port="${MINEPORT}"\n"\
-            "server-port=25565\n"\
+            "server-port="${MINEPORT}"\n"\
             "server-ip=\n"\
             "spawn-npcs=true\n"\
             "allow-flight=false\n"\
@@ -77,6 +76,8 @@ RUN echo    "spawn-protection=16\n"\
             "motd=Minecraft Server Docker\n"\
             "enable-rcon=false" > server.properties
 
+
+#"server-port=25565\n"\
 
 RUN MINE_VERSION=$(wget "https://www.minecraft.net/es-es/download/server/" -qO- | grep -P -o -m 1 "(?<=https://launcher.mojang.com/v1/objects/)[^/]+(?=/)") \
     && echo $MINE_VERSION \
