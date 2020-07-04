@@ -31,6 +31,9 @@ USER minecraft
 # Accept the end-user license agreement
 RUN echo "eula=true" > eula.txt
 
+
+
+# https://lukaneco.github.io/Script-bash-to-Dockerfile/
 RUN echo    "spawn-protection=16\n"\
             "max-tick-time=60000\n"\
             "query.port=25565\n"\
