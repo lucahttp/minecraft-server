@@ -4,7 +4,8 @@
 
 ## Docker
 
-## Vanilla Server
+#### Vanilla Server
+#### Vanilla Server
 
 ## Windows 10
 
@@ -14,5 +15,5 @@
 
 #Spigot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDA4NjkyMl19
+eyJoaXN0b3J5IjpbMjM1NjUxNTUwLDEzNDQwODY5MjJdfQ==
 -->
