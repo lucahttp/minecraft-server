@@ -12,13 +12,17 @@
 ## Windows (PowerShell)
 
 #### Vanilla Server
+[script ps1](https://github.com/lukaneco/minecraft-server/blob/master/windows/minecreaft.vanilla.windows.ps1)
 #### Spigot Server
+[https://github.com/lukaneco/minecraft-server/blob/master/windows/minecreaft.spigot.windows.ps1](https://github.com/lukaneco/minecraft-server/blob/master/windows/minecreaft.spigot.windows.ps1)
 
 ## Linux (Ubuntu)
 
 #### Vanilla Server
+[script](https://github.com/lukaneco/minecraft-server/blob/master/linux/minecreaft.spigot.linux.sh)
 #### Spigot Server
+[cooming soon](https://github.com/lukaneco/minecraft-server/blob/master/linux/minecreaft.vanilla.linux.sh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NTQzNjIzLDE4ODM3MzY3MjQsMTM0ND
-A4NjkyMl19
+eyJoaXN0b3J5IjpbLTExNzkxOTM5OTEsMTg4MzczNjcyNCwxMz
+Q0MDg2OTIyXX0=
 -->
