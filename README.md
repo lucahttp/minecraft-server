@@ -1,6 +1,14 @@
 # minecraft server
  make your own minecraft server with this automatization scripts
 
+![enter image description here](https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png)
+
+
+<div>
+<img  src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg"  width="150px"  height="150px">
+<img  src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"  width=""  height="150px">
+</div>
+  
 
 ## Docker
 
@@ -23,6 +31,6 @@
 #### Spigot Server
 [cooming soon](https://github.com/lukaneco/minecraft-server/blob/master/linux/minecreaft.vanilla.linux.sh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MTEwNDY1LDE4ODM3MzY3MjQsMTM0ND
+eyJoaXN0b3J5IjpbMjMwODYzOTYxLDE4ODM3MzY3MjQsMTM0ND
 A4NjkyMl19
 -->
