@@ -2,7 +2,7 @@
  make your own minecraft server with this automatization scripts
 
 
-## Dockerfil
+## Docker
 
 ## Vanilla Server
 
@@ -14,5 +14,5 @@
 
 #Spigot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc0Njc4NjFdfQ==
+eyJoaXN0b3J5IjpbMTM0NDA4NjkyMl19
 -->
