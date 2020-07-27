@@ -16,11 +16,6 @@
 
 #### Vanilla Server
 #### Spigot Server
-
-
-
-
-#Spigot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTkzMzI3MTMsMTM0NDA4NjkyMl19
+eyJoaXN0b3J5IjpbMTg4MzczNjcyNCwxMzQ0MDg2OTIyXX0=
 -->
