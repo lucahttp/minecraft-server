@@ -5,17 +5,20 @@
 ## Docker
 
 #### Vanilla Server
+[dockerfile](https://github.com/lukaneco/minecraft-server/blob/master/docker/minecreaft.vanilla.docker.dockerfile)
 #### Spigot Server
+[dockerfile](https://github.com/lukaneco/minecraft-server/blob/master/minecreaft.spigot.docker.dockerfile)
 
-## Windows 10
+## Windows (PowerShell)
 
 #### Vanilla Server
 #### Spigot Server
 
-## Linux
+## Linux (Ubuntu)
 
 #### Vanilla Server
 #### Spigot Server
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzczNjcyNCwxMzQ0MDg2OTIyXX0=
+eyJoaXN0b3J5IjpbNTc1NTQzNjIzLDE4ODM3MzY3MjQsMTM0ND
+A4NjkyMl19
 -->
