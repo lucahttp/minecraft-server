@@ -12,7 +12,7 @@ make your own minecraft server with this automatization scripts
 #### Vanilla Server
 [dockerfile](https://github.com/lukaneco/minecraft-server/blob/master/docker/minecreaft.vanilla.docker.dockerfile)
 #### Spigot Server
-[dockerfile](https://github.com/lukaneco/minecraft-server/blob/master/minecreaft.spigot.docker.dockerfile)
+[dockerfile](https://github.com/lukaneco/minecraft-server/blob/master/docker/minecreaft.spigot.docker.dockerfile)
 
 ## Windows (PowerShell)
 
@@ -28,6 +28,6 @@ make your own minecraft server with this automatization scripts
 #### Spigot Server
 [cooming soon](https://github.com/lukaneco/minecraft-server/blob/master/linux/minecreaft.vanilla.linux.sh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM1MjE0MzUsMjMwODYzOTYxLDE4OD
-M3MzY3MjQsMTM0NDA4NjkyMl19
+eyJoaXN0b3J5IjpbLTExNDU0NDM4NjIsLTIwNTM1MjE0MzUsMj
+MwODYzOTYxLDE4ODM3MzY3MjQsMTM0NDA4NjkyMl19
 -->
