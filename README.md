@@ -1,6 +1,5 @@
-# minecraft server
 ![enter image description here](https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png)
-
+# minecraft server
 make your own minecraft server with this automatization scripts
 <div>
 <img  src="https://cdn.pixabay.com/photo/2013/07/12/19/25/minecraft-154749_960_720.png"  width="150px"  height="150px">
