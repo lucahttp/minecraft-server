@@ -1,0 +1,35 @@
+version: '3.1'
+services:
+  mineserver:
+    #volumes:
+    #   - './.data/wordpress:/var/www/html/'
+    #depends_on:
+    #  - db
+    #links:
+    #  - db
+    build:
+      context: ./
+      dockerfile: minecreaft.spigot.docker.dockerfile
+      args:
+        server_name: "test server"
+        server_port: 25565
+        server_mcversion: 1.15.2
+        server_RAM_MIN: 1G
+        server_RAM_MAX: 2G
+        server_: mydb
+        db_user: admin
+        db_pass: admin
+    ports:
+      - "80:80"
+      - "443:443"
+      # - './path/on/docker/host:/path/inside/container'  
+      # - .:/code
+    #environment:
+    #  DB_HOST_ENV: 127.0.0.1
+    #  DB_NAME_ENV: db
+    #  DB_USER_ENV: admin
+    #  DB_PASS_ENV:
+  # redis:
+  #   image: "redis:alpine"
+  # docker-compose up --force-recreate --renew-anon-volumes --build
+  # docker-compose up -d

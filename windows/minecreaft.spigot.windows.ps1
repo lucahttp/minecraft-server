@@ -154,7 +154,7 @@ $minram = "1G"
 $maxram = "1G"
 
 
-$startFileName = "/start.ps1"
+$startFileName = "start.ps1"
 
 
 $startscript = "java -Xms$minram -Xmx$maxram -jar spigot.jar"
