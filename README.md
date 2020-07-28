@@ -5,7 +5,7 @@
 
 
 <div>
-<img  src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png" height="150px">
+<img  src="https://cdn.pixabay.com/photo/2013/07/12/19/25/minecraft-154749_960_720.png"  width="150px"  height="150px">
 <img  src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg"  width=""  height="150px">
 </div>
   
@@ -31,6 +31,6 @@
 #### Spigot Server
 [cooming soon](https://github.com/lukaneco/minecraft-server/blob/master/linux/minecreaft.vanilla.linux.sh)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzMwNDU5MSwyMzA4NjM5NjEsMTg4Mz
-czNjcyNCwxMzQ0MDg2OTIyXX0=
+eyJoaXN0b3J5IjpbNzA2OTMwOTgzLDIzMDg2Mzk2MSwxODgzNz
+M2NzI0LDEzNDQwODY5MjJdfQ==
 -->
